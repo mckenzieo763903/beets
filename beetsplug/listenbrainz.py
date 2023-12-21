@@ -101,7 +101,6 @@ class ListenBrainzPlugin(BeetsPlugin):
         else:
             return None
 
-
     def get_tracks_from_listens(self, listens):
         """Returns a list of tracks from a list of listens."""
         tracks = []
