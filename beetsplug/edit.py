@@ -246,7 +246,7 @@ class EditPlugin(plugins.BeetsPlugin):
                 old_str += f"# - {key}\n"
             for obj in old_data:
                 # those values will be enforced later anyway
-                obj.update({k:v.get() for k,v in set_fields.items()})
+                obj.update({k: v.get() for k, v in set_fields.items()})
         else:
             old_str = ""
 
